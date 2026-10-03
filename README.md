@@ -30,4 +30,13 @@ React · TypeScript · Vite · Supabase · Vercel (deploy automático)
 </tr>
 <tr>
 <td><img src="prints/vitrine-04-rescisao-memorial.png" alt="Botão de visualização do PDF"><br><sub><b>5. Visualização do PDF:</b> após o preenchimento, cada módulo permite conferir o documento antes de baixar</sub></td>
-<td><img src="prints/vitrine-06-substituicao-pdf.png"
+<td><img src="prints/vitrine-06-substituicao-pdf.png" alt="Pré-visualização do PDF"><br><sub><b>6. Pré-visualização:</b> demonstrativo pronto para baixar ou imprimir</sub></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><img src="prints/vitrine-07-progressoes.png" alt="Leitura de PDFs" width="70%"><br><sub><b>7. Leitura de PDFs:</b> carregamento de extratos e fichas para preenchimento automático</sub></td>
+</tr>
+</table>
+
+---
+
+🚧 Em uso e em evolução contínua · Desenvolvido por [Rafaela Silva](https://github.com/RafaelaSilva90) 💜
