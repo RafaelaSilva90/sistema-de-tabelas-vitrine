@@ -1,54 +1,50 @@
 # 📊 Sistema de Tabelas
 
-Aplicação web que transforma planilhas de cálculos financeiros de um setor de pagamento de pessoal em um sistema único, rápido e confiável, com demonstrativos prontos em PDF.
+Sistema web que substitui planilhas de cálculos financeiros de pagamento de pessoal, gerando demonstrativos em PDF prontos para os processos.
 
-> 🔒 Este repositório é uma **vitrine**: o sistema está em uso real por uma equipe, então o código-fonte é privado. Todos os prints usam dados fictícios.
+> 🔒 Vitrine de um sistema em uso real. O código é privado, e todos os prints usam dados fictícios.
 
-## 🎯 O problema
+![Painel inicial](prints/vitrine-02-painel.png)
 
-Os cálculos do setor (rescisões, substituições, progressões e outros acertos financeiros) eram feitos em várias planilhas separadas. Isso tomava tempo, aumentava o risco de erros e dificultava a padronização dos documentos.
+## ✨ Principais recursos
 
-## 💡 A solução
-
-Um sistema web que reúne todos esses cálculos em um só lugar:
-
-- Cálculos automáticos com base na legislação vigente
-- Demonstrativos em PDF gerados no formato oficial, prontos para anexar aos processos
-- Leitura automática de PDFs do sistema de folha, preenchendo dados sem digitação
-- Cronograma da folha com contagem regressiva para o fechamento
-- Login com Google e controle de acesso por aprovação
-- Nenhum armazenamento de dados sensíveis: os cálculos são feitos na hora e o PDF é baixado localmente
+<table>
+<tr>
+<td width="55%">
+<ul>
+<li><b>Cálculos automáticos</b> de rescisões, substituições, progressões e outros acertos</li>
+<li><b>PDF no formato oficial</b>, pronto para anexar aos processos</li>
+<li><b>Leitura de PDFs</b> da folha, sem digitação</li>
+<li><b>Cronograma da folha</b> com contagem regressiva</li>
+<li><b>Login com Google</b> e acesso por aprovação</li>
+<li><b>Nenhum dado sensível salvo</b>: tudo é calculado na hora</li>
+</ul>
+</td>
+<td width="45%"><img src="prints/vitrine-01-login.png" alt="Tela de login"></td>
+</tr>
+</table>
 
 ## 🛠️ Tecnologias
 
-React · TypeScript · Vite · Supabase · Git · Vercel (deploy automático a cada atualização)
+React · TypeScript · Vite · Supabase · Vercel (deploy automático)
 
-## 🖼️ Telas do sistema
+## 🖼️ Telas
 
-### Acesso e painel
-
-![Tela de login](prints/vitrine-01-login.png)
-![Painel inicial com cronograma da folha](prints/vitrine-02-painel.png)
-
-### Rescisões
-
-![Formulário de rescisão](prints/vitrine-03-rescisao-formulario.png)
-![Memorial de cálculos da rescisão](prints/vitrine-04-rescisao-memorial.png)
-
-### Pagamento de substituição
-
-![Cálculo de substituição](prints/vitrine-05-substituicao-calculo.png)
-![Demonstrativo em PDF](prints/vitrine-06-substituicao-pdf.png)
-
-### Outros módulos
-
-![Progressões funcionais com leitura automática de PDF](prints/vitrine-07-progressoes.png)
-![Cálculo de auxílio-transporte](prints/vitrine-08-auxilio-transporte.png)
-
-## 🚧 Status
-
-Em uso e em evolução contínua, com novos módulos sendo adicionados conforme as necessidades da equipe.
+<table>
+<tr>
+<td width="50%"><img src="prints/vitrine-03-rescisao-formulario.png" alt="Formulário de rescisão"><br><sub><b>Rescisões:</b> escolha do tipo e dados do servidor</sub></td>
+<td width="50%"><img src="prints/vitrine-04-rescisao-memorial.png" alt="Memorial da rescisão"><br><sub><b>Memorial:</b> base legal e resumo do cálculo</sub></td>
+</tr>
+<tr>
+<td><img src="prints/vitrine-05-substituicao-calculo.png" alt="Cálculo de substituição"><br><sub><b>Substituição:</b> dias apurados e valor devido</sub></td>
+<td><img src="prints/vitrine-06-substituicao-pdf.png" alt="Demonstrativo em PDF"><br><sub><b>PDF:</b> demonstrativo pronto para baixar</sub></td>
+</tr>
+<tr>
+<td><img src="prints/vitrine-07-progressoes.png" alt="Progressões funcionais"><br><sub><b>Progressões:</b> leitura automática de PDFs</sub></td>
+<td><img src="prints/vitrine-08-auxilio-transporte.png" alt="Auxílio-transporte"><br><sub><b>Auxílio-transporte:</b> memória de cálculo</sub></td>
+</tr>
+</table>
 
 ---
 
-Desenvolvido por [Rafaela Silva](https://github.com/RafaelaSilva90) 💜
+🚧 Em uso e em evolução contínua · Desenvolvido por [Rafaela Silva](https://github.com/RafaelaSilva90) 💜
